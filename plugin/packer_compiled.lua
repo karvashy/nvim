@@ -84,10 +84,10 @@ _G.packer_plugins = {
     path = "/home/woodpecker/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
-  harpoon = {
+  delimitMate = {
     loaded = true,
-    path = "/home/woodpecker/.local/share/nvim/site/pack/packer/start/harpoon",
-    url = "https://github.com/theprimeagen/harpoon"
+    path = "/home/woodpecker/.local/share/nvim/site/pack/packer/start/delimitMate",
+    url = "https://github.com/Raimondi/delimitMate"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,
@@ -103,6 +103,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/woodpecker/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  neoformat = {
+    loaded = true,
+    path = "/home/woodpecker/.local/share/nvim/site/pack/packer/start/neoformat",
+    url = "https://github.com/sbdchd/neoformat"
   },
   ["nvim-cmp"] = {
     loaded = true,
